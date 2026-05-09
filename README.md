@@ -1,137 +1,126 @@
-# file-info.md
+# Домашна кухня: физика, химия и физиология на храната
 
-```text
-food-main/
-total 248K
-drwxr-xr-x  3 user user 4.0K May  9  food-main/
-drwxr-xr-x 10 user user 4.0K May  9  ../
--rw-r--r--  1 user user  12K May  9  README.md
--rw-r--r--  1 user user  18K May  9  CONTEXT.md
--rw-r--r--  1 user user  24K May  9  CONCEPTS.md
--rw-r--r--  1 user user  41K May  9  FOOD GUIDE.md
--rw-r--r--  1 user user  27K May  9  INFLAMMATION.md
--rw-r--r--  1 user user  36K May  9  METABOLISM.md
--rw-r--r--  1 user user  39K May  9  MOVEMENT.md
--rw-r--r--  1 user user  31K May  9  STARVE.md
-```
+Практически и научен проект за домашна кухня, хранителна химия, физиология, метаболизъм и реалното използване на храната в ежедневието.
+
+Проектът разглежда храната не само като калории, а като система от:
+
+- биохимия
+- физиология
+- микробиология
+- термична обработка
+- съхранение
+- сезонност
+- традиционни практики
+- практическо готвене
 
 ---
 
-# Structure Overview
+## Цел на проекта
 
-```text
-README.md
-└── Project overview
-    └── Main entry point
+Целта е да се събере структурирано знание за:
 
-CONTEXT.md
-└── Philosophy
-    └── Food systems
-    └── Traditional vs modern nutrition
+- избор на качествени продукти
+- сезонно хранене
+- правилно съхранение
+- ефективна термична обработка
+- бионаличност на хранителни вещества
+- ферментация
+- метаболитни процеси
+- движение и физиология
+- възпаление и възстановяване
 
-CONCEPTS.md
-└── Scientific concepts
-    └── Physiology
-    └── Chemistry
-    └── Metabolism
-
-FOOD GUIDE.md
-└── Practical cooking
-    └── Shopping
-    └── Storage
-    └── Ingredient handling
-
-INFLAMMATION.md
-└── Inflammation physiology
-    └── Oxidative stress
-    └── Recovery
-
-METABOLISM.md
-└── Energy systems
-    └── ATP
-    └── Glycogen
-    └── Ketosis
-
-MOVEMENT.md
-└── Movement physiology
-    └── Nervous system
-    └── Circulation
-    └── Exercise adaptation
-
-STARVE.md
-└── Fasting physiology
-    └── Ketones
-    └── Fat metabolism
-    └── Metabolic adaptation
-```
+Фокусът е върху реална домашна кухня, а не върху диетична мода, маркетинг или хранителна истерия.
 
 ---
 
-# Planned Future Structure
+## Основни теми
 
-```text
-food-main/
-│
-├── README.md
-├── file-info.md
-├── CONTEXT.md
-├── CONCEPTS.md
-├── FOOD GUIDE.md
-├── INFLAMMATION.md
-├── METABOLISM.md
-├── MOVEMENT.md
-├── STARVE.md
-│
-├── FERMENTATION.md
-├── FATS.md
-├── VEGETABLES.md
-├── ORGANS.md
-├── MICROBIOME.md
-├── STORAGE.md
-├── THERMAL_PROCESSING.md
-└── COOKING_PHYSICS.md
-```
+### Храна и готвене
+
+- зеленчуци
+- бобови
+- месо
+- карантии
+- яйца
+- млечни
+- мазнини
+- ферментирали храни
+- подправки и билки
+
+### Хранителна химия
+
+- окисление
+- денатурация
+- Maillard реакции
+- карамелизация
+- водна активност
+- pH
+- термична стабилност
+- бионаличност
+
+### Физиология и метаболизъм
+
+- ATP
+- гликоген
+- инсулин
+- глюкагон
+- кетоза
+- гладуване
+- липолиза
+- beta oxidation
+- AMPK
+- mTOR
+
+### Движение и системи в тялото
+
+- кръвоносна система
+- нервна система
+- лимфна система
+- мускули
+- митохондрии
+- възстановяване
+- тренировки
 
 ---
 
-# Project Core Topics
+## Структура
 
-```text
-food chemistry
-physiology
-metabolism
-movement
-fasting
-inflammation
-fermentation
-storage
-cooking physics
-microbiome
-traditional food systems
-practical nutrition
-```
+Виж:
+
+- [file-info.md](./file-info.md)
 
 ---
 
-# Repository Purpose
+## Подход
 
-```text
-practical food science
-+
-human physiology
-+
-home cooking
-+
-traditional knowledge
-+
-modern biochemistry
-```
+Проектът комбинира:
 
-Защото apparently:
-"какво има в храната"
-се оказа gateway drug към:
-- thermodynamics,
-- mitochondrial metabolism,
-- inflammatory signaling,
-- fermentation microbiology,
-- и existential hatred toward ultra-processed food.
+- традиционна кухня
+- модерна наука
+- практическо готвене
+- физиология
+- критичен поглед към преработената храна
+
+Не следва конкретна диета.
+
+Не е медицински наръчник.
+
+Не е detox програма.
+
+---
+
+## Статус
+
+Проектът е в активно развитие.
+
+Съдържанието ще се разширява постепенно с отделни статии, практически наръчници и тематични глави.
+
+---
+
+## Disclaimer
+
+Този проект е образователен.
+
+Не представлява медицински съвет, диагноза или лечение.
+
+При заболявания, медикаменти, специални хранителни режими или сериозни здравословни състояния трябва да се работи с квалифициран медицински специалист.
