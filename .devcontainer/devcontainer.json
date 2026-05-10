@@ -1,0 +1,32 @@
+{
+  "name": "food-meal-monitor-dev",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "22"
+    }
+  },
+  "workspaceFolder": "/workspaces/food",
+  "forwardPorts": [8000, 5173],
+  "portsAttributes": {
+    "8000": {
+      "label": "Meal Monitor Backend",
+      "onAutoForward": "notify"
+    },
+    "5173": {
+      "label": "Meal Monitor Frontend",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "postCreateCommand": "python3 --version && node --version && npm --version",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}
